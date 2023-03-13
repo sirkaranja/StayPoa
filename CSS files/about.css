@@ -1,0 +1,49 @@
+.scroll{
+    display: flex
+}
+#paragraph{
+    box-shadow: 20px 20px grey;    
+}
+img[alt="Sample living room"]{
+     height:100%;
+    width: 100%; 
+}
+#image2{
+height: 60%;
+width: 60%;
+box-shadow: 20px 20px lightgrey;
+}
+.foundation{
+    display:flex;
+    font-size: xx-large;
+    margin-top: 5%;
+    padding-left: 15%;
+    padding-right: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightgrey;
+
+}
+h2{
+    text-align: center;
+    font-size: 2cm;
+}
+.scroll{
+    font-size: xx-large;
+
+}
+/* .pa2{
+    margin-left: 0.5cm;
+} */
+.container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+  }
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }  
+  
