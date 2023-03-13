@@ -4,10 +4,11 @@
 #paragraph{
     box-shadow: 20px 20px grey;    
 }
-img[alt="Sample living room"]{
+/* img[alt="Sample living room"]{
      height:100%;
     width: 100%; 
-}
+    border-radius: 20% 20%;
+} */
 #image2{
 height: 60%;
 width: 60%;
@@ -17,7 +18,7 @@ box-shadow: 20px 20px lightgrey;
     display:flex;
     font-size: X-large;
     margin-top: 5%;
-    padding-left: 15%;
+    padding-left: 30%;
     padding-right: 20%;
     font-family: Arial, Helvetica, sans-serif;
    
