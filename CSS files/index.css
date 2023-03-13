@@ -1,0 +1,255 @@
+
+body {
+    font-family: 'Raleway';
+    height: 100%;
+    background-color: beige;
+}
+
+a {
+    text-decoration: none;
+}
+
+a.active {
+    color: var(--anchor-active-color);
+    font-weight: var(--anchor-active-font-weight);
+}
+
+a:hover {
+    color: var(--hover-color);
+}
+
+header {
+    display: flex;
+    background-color: var(--header-background);
+    padding-top: 18px;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.section {
+    flex-grow: 1;
+}
+
+.section.logo {
+    margin-left: 2.5em;
+}
+
+.logo {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:hsl(216, 30%, 50%);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    flex-grow: 1;
+    text-align: center;
+    width: 70px;
+}
+
+
+
+header div:nth-child(1) {
+    flex-grow: 8;
+    padding-bottom: 15px;
+}
+
+header div:nth-child(1) img {
+    margin-left: 25px;
+}
+
+@media all and (max-width: 800px) {
+    header {
+        justify-content: space-around;
+    }
+
+    .container {
+        padding: 50px;
+    }
+}
+
+@media only screen and (max-width:542px) {
+    header div:nth-child(1) {
+        margin: 0 auto;
+        display: block;
+        padding-bottom: 0;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .section {
+        flex-grow: 1;
+        text-align: center;
+    }
+
+    .section.logo {
+        margin: 0;
+    }
+
+    ul {
+        background-color: #232323;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    ul li {
+        width: 50%;
+        padding: 15px;
+    }
+}
+.hero{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: url("images/");
+    
+}
+#hero-text{
+    z-index: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+}
+#hero-text h1 {
+    text-transform: capitalize;
+    font-size: calc(2rem + 0.9vw);
+    color: hsl(216, 30%, 50%);
+  }
+  
+ 
+.btn{
+    width: 100px;
+    height: 40px;
+   margin-top: 0px;
+   text-align: center;
+   font-size: small;
+   color: white;
+   background-color: green;
+   padding-top: 2px;
+
+}
+ /*about */
+ .container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    box-shadow: gray;
+    background-color: rgb(230, 222, 222);
+    width: 100%;
+
+
+   }
+   
+   img {
+    padding-left: 50px;
+    box-shadow: gray;
+    border-radius: 20px 20px;
+   
+    
+   width: 600px;   }
+  
+  .text {
+    font-size: 30px;
+    width: 150%;
+    padding: 40px;
+  }
+  #about{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .progress{
+    display: grid;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 3px;
+    padding-top: 90px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 30px;
+    border-radius: 40px;
+    font-size: large;
+
+  }
+
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(133, 124, 124);
+    color: white;
+    text-align: center;
+ }
+
+
+ /*contactform*/
+ input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+     }
+  .map{
+    width: 40%;
+    padding-top: 40px;
+  }
+  .row{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    padding-top: 50px;
+    border-radius: 20px;
+  }
