@@ -118,7 +118,7 @@ header div:nth-child(1) img {
     max-width: 100%;
     background-repeat: no-repeat;
     position: relative;
-    background-image: url("images/");
+    background-image: url("images");
     
 }
 #hero-text{
